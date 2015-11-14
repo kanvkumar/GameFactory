@@ -1,0 +1,101 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<design>
+        <title>
+	        పదములను సరియైన క్రమములో ఎన్నుకొండి
+        </title>
+                <showans>
+                    సరైన సమాదానములు
+                </showans>
+                             <words>
+                                     <letter>
+                                        <text>వలస</text>
+                                        <sound>sounds/tsounds/a.wav</sound>
+                                        <image>#</image>
+                                    </letter>
+                                    <letter>
+                                        <text>పదము</text>
+                                        <sound>sounds/tsounds/a.wav</sound>
+                                        <image>#</image>
+                                    </letter>
+                                    <letter>
+                                        <text>నిజమె</text>
+                                        <sound>sounds/tsounds/a.wav</sound>
+                                        <image>#</image>
+                                    </letter>
+                                     <letter>
+                                        <text>నిజమె</text>
+                                        <sound>sounds/tsounds/a.wav</sound>
+                                        <image>#</image>
+                                    </letter>
+                                     <letter>
+                                        <text>నిజమె</text>
+                                        <sound>sounds/tsounds/a.wav</sound>
+                                        <image>#</image>
+                                    </letter>
+                                     <letter>
+                                        <text>నిజమె</text>
+                                        <sound>sounds/tsounds/a.wav</sound>
+                                        <image>#</image>
+                                    </letter>
+                                     <letter>
+                                        <text>నిజమె</text>
+                                        <sound>sounds/tsounds/a.wav</sound>
+                                        <image>#</image>
+                                    </letter>
+                            </words>
+        <syllables>
+                <division>
+                    <h>ల</h>
+                    <h>స</h>
+                    <h>ని</h>
+                    <h>జ</h>
+                    <h>వ</h>
+                </division>
+             <division>
+                    <h>ల</h>
+                    <h>ని</h>
+                    <h>జ</h>
+                    <h>స</h>
+                    <h>వ</h>
+                </division>
+           <division>
+                    <h>ల</h>
+                    <h>ని</h>
+                    <h>జ</h>
+                    <h>స</h>
+                    <h>వ</h>
+                </division>
+         
+                <division>
+                    <h>ద</h>
+                    <h>ని</h>
+                    <h>జ</h>
+                    <h>ము</h>
+                    <h>ప</h>
+                </division>
+                <division>
+                    <h>మె</h>
+                    <h>ని</h>
+                    <h>జ</h>
+                    <h>ని</h>
+                    <h>జ</h>
+                </division>
+           <division>
+                    <h>ల</h>
+                    <h>ని</h>
+                    <h>జ</h>
+                    <h>స</h>
+                    <h>వ</h>
+                </division>
+           <division>
+                    <h>ల</h>
+                    <h>ని</h>
+                    <h>జ</h>
+                    <h>స</h>
+                    <h>వ</h>
+            </division> 
+        </syllables>
+</design>
+               
+         
+            

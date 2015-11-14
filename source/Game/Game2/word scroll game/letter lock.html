@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>LetterLock - a Javascript-based word game</title>
+    <link rel="stylesheet" href="letterlock.css" />
+    <!--<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">-->
+    <script type="text/javascript" href="static/js/jquery.min.js" ></script>
+    <!--<script type="text/javascript" href="static/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="letterlock.js"></script>
+    <script type="text/javascript">
+      // Google Analytics code
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19082249-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+<style>
+
+#header {
+    background-color:#000000;
+    color:white;
+    text-align: center;
+    padding:5px;
+
+}
+#nav {
+    line-height:30px;
+    background-color:#313B3B;
+    height:530px;
+    width:290px;
+    float:left;
+    padding:5px;          
+}
+
+#nav1 {
+
+    line-height:30px;
+    background-color:#313B3B;
+    height:530px;
+    width:290px;
+    float:right;
+    padding:5px;          
+}
+#section {
+    width:350px;
+    float:left;
+    height:530px;
+    padding:45px;  
+    padding-top:10px;
+    padding-left: 90px;
+
+	 	 
+}
+
+#footer {
+    background-color:#000000;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>Letter lock</h1>
+</div>
+
+<div id="nav">
+<h2><b>Game Inputs</b></h2>
+<button id="bt1" type="button" style="margin-left:20px;width:180px;height:50px" class="btn btn-default">Background Image</button>
+<br><br>
+<button id="bt2" type="button" style="margin-left:20px;width:180px;height:50px" class="btn btn-default">Background Colour</button>
+<br><br>
+<button id="bt3" type="button" style="margin-left:20px;width:180px;height:50px" class="btn btn-default">Sounds</button>
+<br><br>
+<button id="bt4" type="button" style="margin-left:20px;width:180px;height:50px" class="btn btn-default">Levels</button>
+<br><br>
+<button id="bt5" type="button" style="margin-left:20px;width:180px;height:50px" class="btn btn-default">Language</button>
+<br><br>
+</div>
+<div id="section">
+<p>Shift letters one at a time to spell a dictionary word in as few moves as possible</p>
+
+<form>
+<ul class="stats" style="background-color:#000"><li class="l">score: <span id="score">0</span></li><li class="r">total score: <span id="totalScore">0</span></li></ul>
+<ul class="stats"><li class="l">moves: <span id="moves">0</span></li><li class="l">time: <span id="time">0:00</span></li><li class="r">best time: <span id="bestTime">0:00</span></li><li class="r">best moves: <span id="bestMoves">0</span></li></ul>
+<ol>
+<li>
+    <a href="noscript.html" onclick="game.previous(0); return false;" id="letter1-up"></a>
+    <div class="letter" id="letter1"></div>
+    <a href="noscript.html" onclick="game.next(0); return false;" id="letter1-down"></a>
+</li>
+<li>
+    <a href="noscript.html" onclick="game.previous(1); return false;" id="letter2-up"></a>
+    <div class="letter" id="letter2"></div>
+    <a href="noscript.html" onclick="game.next(1); return false;" id="letter2-down"></a>
+</li>
+<li>
+    <a href="noscript.html" onclick="game.previous(2); return false;" id="letter3-up"></a>
+    <div class="letter" id="letter3"></div>
+    <a href="noscript.html" onclick="game.next(2); return false;" id="letter3-down"></a>
+</li>
+</ol>
+<div id="buttonContainer">
+    <input type="button" onclick="game.newGame()" id="newGame" value="New Game?">
+</div>
+<ul class="stats"><li class="l">total moves: <span id="totalMoves">0</span></li><li class="left">total time: <span id="totalTime">0:00</span></li><li class="r">avg: <span id="avg">0</span></li><li class="r">games played: <span id="games">0</span></li></ul>
+<ul class="stats" style="background-color:#000"><li class="l">fewest possible moves: <span id="fewestMoves">2197</span></li><li class="r">suggested word: <span id="idealWord">[hidden]</span></li></ul>
+<div id="mode">
+    <input type="button" onclick="game.setEasyMode(false);" id="unlock" title="Switch to Easy Mode" value=" ">
+    <input type="button" onclick="game.setEasyMode(true);" id="lock" title="Switch to Lock Mode" value=" ">
+</div>
+</form>
+</div>
+
+<div id="nav1">
+<br>
+<br>
+<br>
+</div>
+<hr />
+<!--<p>Current word list from <a href="http://www.yak.net/kablooey/scrabble/3letterwords.html">3-letter word list</a> of valid Scrabble words. One issue with using Scrabble dictionary words is that many of the words are somewhat unexpected to casual players (e.g. MHO) and many are not even listed in Merriam-Webster (e.g. AAL &amp; ZZZ). In case you were wondering, "Zen," in spite of its typical use in American English, is considered a proper noun, and therefore serious Scrabble players exclude it.</p>-->
+
+<script type="text/javascript">
+    var game = new Game;
+</script>
+
+<div id="footer">
+play and learn 
+</div>
+
+</body>
+</html>
