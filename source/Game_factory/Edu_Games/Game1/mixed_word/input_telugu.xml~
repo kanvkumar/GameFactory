@@ -1,0 +1,211 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<design>
+    <language>
+        Telugu           <!--language for design -->
+    </language>
+    <backgroundimage>
+        invention.jpg        <!-- Path for background-image -->
+    </backgroundimage>
+    <backgroundcolor>
+        orange          <!-- Can be a standard HTML colors, in Hex {e.g. #AA11FF} or in rgb { e.g. rgb(130,225,100) } -->
+    </backgroundcolor>
+    <colortheme>
+        {black, red}
+                    <!--
+                    Can be a standard HTML colors, in Hex {e.g. #AA11FF} or in rgb { e.g. rgb(130,225,100) }.
+                    In form {color1, color2},
+                    where color1 is normal text color,
+                    and color2 is the color used for highlighting.
+                    -->
+    </colortheme>
+    <animationstyle>
+        fallingletters
+    </animationstyle>
+    <animationspeed>
+        slow        <!-- Can be slow, fast or withsound -->
+    </animationspeed>
+    <sizeofletters>
+        large      <!-- Can be small, medium or large -->
+    </sizeofletters>
+    
+    <menu>
+        <title>
+	        మొదటి పాఠము
+        </title>
+        <backgroundimage>
+            menu.jpg
+        </backgroundimage>
+        <backgroundcolor>
+            black
+        </backgroundcolor>
+        <colortheme>
+            white
+        </colortheme>
+    </menu>
+    
+    <lesson>
+        <title>
+			శ్యాం కుమార్ పట్నాల
+        </title>
+        <instructions>
+            <start>
+                <sound>sounds/tsounds/instruction1.wav</sound>
+                <image>./namaskar.png</image>
+            </start>
+            <middle>
+                <text>Some text to appear with the sound</text>
+                <sound>sounds/tsounds/instruction2.wav</sound>
+                <image>./namaskar.png</image>
+            </middle>
+            <end>
+                <sound>sounds/tsounds/instruction3.wav</sound>
+                <image>./namaskar.png</image>
+            </end>
+        </instructions>
+        <goals>
+            <goal>
+                <text>ఈ పాఠములో మనము ఈ అక్షరాలను గుర్తుపెట్టుకోవటం నేర్చుకుంటాము { }</text>
+                <sound>sounds/goal.wav</sound>
+            </goal>
+            <goal>
+                <text>ఈ పాఠములో మనము ఈ అక్షరాలను చదవటం నేర్చుకుంటాము { }</text>
+                <sound>sounds/goal.wav</sound>
+            </goal>
+        </goals>
+        <letters>
+            <letter>
+                <text>శ్యాం</text>
+                <sound>sounds/tsounds/a.wav</sound>
+                <instructions>
+                    <start>
+                        <sound>sounds/tsounds/instruction1.wav</sound>
+                        <image>./namaskar.png</image>
+                    </start>
+                    <middle>
+                        <sound>sounds/tsounds/instruction2.wav</sound>
+                        <image>./namaskar.png</image>
+                    </middle>
+                    <end>
+                        <sound>sounds/tsounds/instruction3.wav</sound>
+                        <image>./namaskar.png</image>
+                    </end>
+                </instructions>
+                <words>
+                    <word>
+                        <text>అర</text>
+                        <sound>sounds/word.wav</sound>
+                        <image>./house.jpg</image>
+                    </word>
+                </words>
+            </letter>
+            <letter>
+                <text>కు</text>
+                <sound>sounds/va.wav</sound>
+                <instructions>
+                    <start>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </start>
+                    <middle>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </middle>
+                    <end>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </end>
+                </instructions>
+                <words>
+			        <word>
+                        <text>వర</text>
+                        <sound>sounds/word.wav</sound>
+                    </word>
+
+			        <word>
+                        <text>అరువు</text>
+                        <sound>sounds/word.wav</sound>
+                    </word>
+         
+                </words>
+            </letter>
+	            <letter>
+                <text>స</text>
+                <sound>sounds/sa.wav</sound>
+                <instructions>
+                    <start>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </start>
+                    <middle>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </middle>
+                    <end>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </end>
+                </instructions>
+                <words>
+			        <word>
+                        <text>నస</text>
+                        <sound>sounds/word.wav</sound>
+                    </word>
+
+			        <word>
+                        <text>వరస</text>
+                        <sound>sounds/word.wav</sound>
+                    </word>
+                    <word>
+                        <text>ముసురు</text>
+                        <sound>sounds/word.wav</sound>
+                        <image>./flower.png</image>
+                    </word>
+                </words>
+            </letter>
+	            <letter>
+                <text>ల</text>
+                <sound>sounds/letter.wav</sound>
+                <instructions>
+                    <start>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </start>
+                    <middle>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </middle>
+                    <end>
+                        <sound>sounds/instruction.wav</sound>
+                        <image>./namaskar.png</image>
+                    </end>
+                </instructions>
+                <words>
+			        <word>
+                        <text>అల</text>
+                        <sound>sounds/word.wav</sound>
+                    </word>
+
+			        <word>
+                        <text>వల</text>
+                        <sound>sounds/word.wav</sound>
+                    </word>
+                    <word>
+                        <text>ఊలు</text>
+                        <sound>sounds/word.wav</sound>
+                        <image>./flower.png</image>
+                    </word>
+			        <word>
+                        <text>అసలు</text>
+                        <sound>sounds/word.wav</sound>
+                    </word>
+			        <word>
+                        <text>వలస</text>
+                        <sound>sounds/word.wav</sound>
+                    </word>
+
+                </words>
+            </letter>
+
+	</letters>
+    </lesson>
+</design>

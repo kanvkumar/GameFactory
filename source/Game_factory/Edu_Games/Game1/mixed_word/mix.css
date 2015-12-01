@@ -1,0 +1,18 @@
+.Style1{
+	width:80px;
+	height:50px;
+	border-color: orange;
+	background-color: white;
+	color: orange;
+}
+.Style{
+	width:90px;
+	height: 60px;
+	border-color: white;
+	border-width: 3px;
+}
+.Para{
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: white;
+}

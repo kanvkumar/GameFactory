@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<game2>
+<title>పదముల</title>
+<sub_title>పదముల</sub_title>
+<words>
+	<word>grapes</word>
+	<word>syam</word>
+	<word>food</word>
+	<word>pen</word>
+	<word>pencil</word>
+	<word>dog</word>
+	<word>cat</word>
+	<word>wheat</word>
+	<word>dad</word>
+	<word>dada</word>
+	<word>adadad</word>
+	<word>adad</word>
+</words>
+<images>
+	<image>sweden.png</image>
+	<image>netherlands.png</image>
+	<image>mexico.png</image>
+	<image>colombia.png</image>
+	<image>ireland.png</image>
+	<image>switzerland.png</image>
+	<image>canada.png</image>
+	<image>australia.png</image>
+	<image>southAfrica.png</image>
+	<image>ireland.png</image>
+	<image>jamaica.png</image>
+	<image>argentina.png</image>
+</images>
+</game2>
