@@ -1,8 +1,8 @@
-﻿Readme for GameFactory:
+﻿Readme for GameFactory (Standalone Application):
 
-There are 2 types in Game_Factory  folder. One set of games are of learning purpose (Edu_Games) and another set of games are for fun (Fun_Games) for the children.
+All the games are for learning purpose and are adaptable to Indian languages.
 
-In Edu_Games, following are the games:
+Following are the games:
 	1) mixed_word game: wizard and xml parsing have been made for this game.
 	    Steps to play and use this game:
 	   	a) Go to Game_factory/Edu_Games/Game1/Wizard/demo/index.html 
@@ -25,16 +25,13 @@ In Edu_Games, following are the games:
 	   Now, open game2.js and give the name of the xml file generated above.
 	   Finally, play the game by clicking on Game_factory/Edu_Games/flag_games/index.html
 		
-	3)  math4kids : This is language independent game, so wizard is not required and go to 		     Game_factory/Edu_Games/math4kids/game/index.html for playing the game.
+	3) Math4kids : This is language independent game, so wizard is not required and go to Game_factory/Edu_Games/math4kids/game/index.html for playing the game.
 	
-	 
+	4) Scrabble game: A game in which words are formed based on letters which are available.
 	
-In Fun_Games Folder, there are 4 games:
-	1) 2-D Ball Game: Directly go to Game_factory/Fun_Games/2D-
-	    ball_game/2D_Ball_Game.html and play the game.
-	2) Candy_game: Directly go to Game_factory/Fun_Games/Candy_game/Monster-Wants-
-	    Candy-demo/index.html and play the game.
-	3) Diablo-js game: Direclty go to  Game_factory/Fun_Games/diablo-js/index.html and 	    	       play the game.
-	4) FrontInvader: Direclty go to  Game_factory/Fun_Games/FrontInvader/index.html and
-	    play the game.
-
+	5) Sudoku Games: A classic maths puzzle game of grid 9x9.
+	
+	6) Hangman Game: Based on Word guesing, this game requires the player to predict the game based on 
+		         the letters guessed by the player.
+		         
+	7) Games Folder which have some other interesting games.	  
