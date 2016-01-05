@@ -1,0 +1,103 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+
+	<!--
+		Written by Sridhar Chimalakonda, enthusiastic2learn@gmail.com
+
+		Key Commandement: Do not hard code anything as your program has to work for all 22 Indian
+		Languages
+
+		There will be 25 lessons at max in a given design
+		Each design can have 1 to 25 lessons
+		Each lesson will have 1 title, "n" number of letters and matras {म, न, क, ा} - remember that 
+		there could be other letters from other than title - for example, व could also be a letter
+		for the same title!
+		Each lesson will also have "n" number of words corresponding to each letter/matra and 
+		each word has to be animated similar to title and animation of the corresponding letter
+		in different color patterns (Pleas see TCS CBFL animation software for example)
+
+		There are two kinds of sounds (i) sounds of letters/words {म sound, मन sound...}
+		(ii) sounds that guide the learners {अब आपलोग इसे पहचानकर बताईये ये कोनसा अक्शर हैँ?, अब आपलोग मेरे साथ साथ बोलिए }
+		For every letter falling down, there will be a sound associated with it and there could
+		be an instruction associated with it as well.. so leaving scope for playing 
+		sound with every animation..
+
+-->
+
+<design>
+            
+        <language>
+
+            <text>Hindi</text>   <!--language for design -->
+            <image></image>
+            <sound></sound>
+                       
+        </language>
+
+
+        
+        <bgimages>
+            
+            <backgroundimage>
+                <text></text>
+                <image>house.jpg</image> <!-- Path for background-image -->
+                <sound></sound>    
+            </backgroundimage>
+
+        </bgimages>
+        
+        <bgcolors>
+            <backgroundcolor>
+                <text>Yellow</text>  <!-- Can be a standard HTML colors, in Hex {e.g. #AA11FF} or in rgb { e.g. rgb(130,225,100) } -->
+                <image></image>
+                <sound></sound>
+            </backgroundcolor>
+
+        </bgcolors>
+
+        <gamesounds>
+            <gamesound>
+                <text></text>
+                <image></image>
+                <sound>lach02.mp3</sound>     <!--path for sound file-->
+            </gamesound>
+			
+        </gamesounds>
+
+        <gameobjects>
+            <gameobject>
+                <text></text>
+                <image>Flower.jpg</image>
+                <sound></sound>
+            </gameobject>
+
+           
+        </gameobjects>
+
+        <levels>
+            
+            <level>
+                <text>1</text>
+                <image></image>
+                <sound></sound>                
+            </level>
+        </levels>
+
+        <fontcolors>
+            <color>
+                <text>orange</text>
+                <image></image>
+                <sound></sound>
+            </color>
+            
+        </fontcolors>
+
+       <animations>
+            <animation>
+                <animationstyle>fallingletters</animationstyle>
+                <animationspeed>   slow  </animationspeed>    <!-- Can be slow, fast or withsound -->
+        
+                <sizeofletters>large</sizeofletters> <!-- Can be small, medium or large -->
+            </animation>
+       </animations>
+        
+</design>

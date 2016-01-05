@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<input>
+    <configur>
+        <backgroundImage>     
+        </backgroundImage>
+        <background_colour>
+            #FFFFFF
+        </background_colour>
+        <language>
+
+
+
+    </configur>
+    <vowels>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>  
+    </vowels>
+  
+
+    <consonants>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>
+        <word><text></text><image></image><sound></sound></word>    
+    </consonants>
+    <consonants_extencions>
+
+    </consonants_extencions>
+</input>
+
+
+
+
+
+
+
+

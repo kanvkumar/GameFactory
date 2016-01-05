@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+  #myCanvas{
+  border:3px solid green;
+}
+
+body{
+   margin-left: 0.5em;
+   background:black; 
+}
+
+  #myCanvas2{
+   margin-left: 1em;
+
+}
+
+#heading{
+color: #fff;
+text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+font: 32px 'BlackJackRegular';
+background:black;
+	   padding-left:2em;
+	   box-shadow:0 0 2em 2em black;
+}
+
+#turn{
+color: #D0F8FF;
+       text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+	       0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+	       0 0 40px #A5F1FF;
+       font-weight:bold;
+
+}
+#chat1,#chat2{
+color: #D0F8FF;
+}
+
+#sendw{
+	margin-left:6em;
+}
+
+
+#chat{
+	margin-top:0.01em;
+	text-shadow: 0px 0px 10px rgba(255,255,255,0.8), 0px 0px 30px rgba(255,255,255,0.5), 0px 0px 40px rgba(255,255,255,0.4), 0px 0px 180px rgba(255,255,255,0.1);
+color:#E3E3E3;
+      margin-left:0.5em;
+}
+
+</style>
+<body>
+
+<p id="heading">Word Scrabble Game</p>
+<canvas id="myCanvas" width="300" height="300">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+<br><br>
+<canvas id="myCanvas2" width="280" height="40">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+<!--<p id="debug"></p>-->
+<b><p id="turn"></p></b>
+<!--Your score : <p id="score1">0</p><br/>
+Opponent score : <p id="score2">0</p>
+-->
+<!--
+<p id="score">SCORE</p>
+<p id="x1">x</p>
+<p id="y1">y</p>
+<p id="board">board</p>
+<button onclick="myFunction()">Get array</button>
+<p id="boardarray"></p>-->
+<button  id="sendw" onclick="getWords()">Submit Word</button><br><br>
+<!--<p id="words"></p>-->
+<!--<button id="sendw" onclick="check()">submit word</button>
+-->
+<!--<h2 id="chat">Chat</h2>
+<div id="chat1" style="float:left;width:100px;border-right:1px solid black;height:300px;padding:10px;overflow:scroll-y;">
+<b>USERS</b>
+<div id="users"></div>
+</div>
+<div id="chat2" style="float:left;width:300px;height:250px;overflow:scroll-y;padding:10px;">
+<div id="conversation"></div>
+<input id="data" style="width:200px;" />
+<input type="button" id="datasend" value="send" />
+</div>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="game.js"></script>
+
+<!--<script src="/socket.io/socket.io.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+</body>
+</html>

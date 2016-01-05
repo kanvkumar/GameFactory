@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<game1>
+<title>Letter Game</title>
+<words>
+	<word>Hello</word>
+	<word>seven</word>
+	<word>eight</word>
+</words>
+<syllables>
+	<syllable>h</syllable>
+	<syllable>e</syllable>
+	<syllable>l</syllable>
+	<syllable>l</syllable>
+	<syllable>o</syllable>
+
+	<syllable>s</syllable>
+	<syllable>e</syllable>
+	<syllable>v</syllable>
+	<syllable>e</syllable>
+	<syllable>n</syllable>
+	
+	<syllable>e</syllable>
+	<syllable>i</syllable>
+	<syllable>g</syllable>
+	<syllable>h</syllable>
+	<syllable>t</syllable>
+</syllables>
+</game1>

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+.droptarget {
+    float: left; 
+    width: 100px; 
+    height: 35px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+</style>
+</head>
+<body>
+<script src="drag.js"></script>
+<p>Drag the p element back and forth between the two rectangles:</p>
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p ondragstart="dragStart(event)" draggable="true" id="dragtarget">Drag me!</p>
+</div>
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<p style="clear:both;"><strong>Note:</strong> drag events are not supported in Internet Explorer 8 and earlier versions or Safari 5.1 and earlier versions.</p>
+<p id="demo"></p>
+</body>
+</html>

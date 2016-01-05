@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" >
+		<title>wizard</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/jquery.snippet.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="XMLWriter.js"></script>
+		
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="150">
+		
+			<section id="demos">
+				<h2>You Give Input To me I will Fill XML For You</h2>
+				<form name="Wizard" id="myWizard" type="get" action="" class="form-horizontal">
+					<section class="step" data-step-title="Game Title">
+				 		<div class="control-group">
+							<label class="control-label" for="inputTitle">Title for your game</label>
+							<div class="controls">
+								<input name="title" type="text" id="inputTitle" class="input-xlarge" title="Title is required !" required />
+							</div>
+						</div>
+						
+					</section>
+					
+					<section class="step" data-step-title="Game Words">
+						<div class="control-group">
+							<label class="control-label" for="inputUsername1">Word 1</label>
+								<div class="word controls">
+								<input name="word1" type="text" id="inputWord1"  class="input-xlarge" />
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputUsername">Word 2</label>
+								<div class="word controls">
+								<input type="text" name="word2" id="inputWord2"  class="input-xlarge" />
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputUsername">Word 3</label>
+								<div class="word controls">
+								<input type="text" name="word3" id="inputWord3"  class="input-xlarge" />
+							</div>
+						</div>
+						<!--<div class="control-group">
+							<label class="control-label" for="inputUsername">Word 4</label>
+								<div class="word controls">
+								<input type="text" id="inputWord4" name="word4" class="input-xlarge" />
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputUsername">Word 5</label>
+								<div class="word controls">
+								<input type="text" id="inputWord5" name="word5" class="input-xlarge" />
+							</div>
+						</div>
+						<div class="control-group">
+							<label class=" control-label" for="inputUsername">Word 6</label>
+								<div class="word controls">
+								<input type="text" id="inputWord6" name="word6" class="input-xlarge" />
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputUsername">Word 7</label>
+								<div class="word controls">
+								<input type="text" id="inputWord7"  name="word7" class="input-xlarge" />
+							</div>
+						</div>-->
+					</section>
+
+					<section class="step" data-step-title="Word syllables">
+
+					   <h4 >word1 syllables</h4>
+							<div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+									<input type="text" name="syll1" id="inputSyll1"
+									 class="input-xlarge">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+									<input type="text" id="inputSyll2" name="syll2" class="input-xlarge">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+									<input type="text" id="inputSyll3"  name="syll3" class="input-xlarge">
+								</div>
+							</div>
+	                        <div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+									<input type="text" id="inputSyll4"  name="syll4" class="input-xlarge">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+									<input type="text" id="inputSyll5" name="syll5" class="input-xlarge">
+								</div>
+							</div>
+						
+
+						<h4>word2 syllables</h4>
+	                         <div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="syll controls">
+									<input type="text" name="syll6" id="inputSyll6"
+									 class="input-xlarge">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+										<input type="text" id="inputSyll7" name="syll7" class="input-xlarge">
+									</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+									<input type="text" id="inputSyll8" name="syll8" class="input-xlarge">
+								</div>
+							</div>
+	                        <div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+									<input type="text" id="inputSyll9" name="syll9" class="input-xlarge">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputFirstname">Syllable</label>
+									<div class="syll controls">
+									<input type="text" id="inputSyll10"  name="syll10" class="input-xlarge">
+								</div>
+							</div>
+						
+							
+							<h4>word3 syllable</h4>
+								<div class="control-group">
+									<label class="control-label" for="inputFirstname">Syllable</label>
+										<div class="syll controls">
+										<input type="text" name="syll11" id="inputSyll11"
+										 class="input-xlarge">
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label" for="inputFirstname">Syllable</label>
+										<div class="syll controls">
+										<input type="text" id="inputSyll12" name="syll11" class="input-xlarge">
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label" for="inputFirstname">Syllable</label>
+										<div class="syll controls">
+										<input type="text" id="inputSyll13" name="syll12"  class="input-xlarge">
+									</div>
+								</div>
+		                        <div class="control-group">
+									<label class="control-label" for="inputFirstname">Syllable</label>
+										<div class="syll controls">
+										<input type="text" id="inputSyll14" name="syll14" class="input-xlarge">
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label" for="inputFirstname">Syllable</label>
+										<div class="syll controls">
+										<input type="text" id="inputSyll15" name="syll15" class="input-xlarge">
+									</div>
+								</div>
+							
+                          <!-- <h4>word4 syllables</h4>
+
+                      <div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname16"
+								 class="input-xlarge">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname17"  class="input-xlarge">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname18"  class="input-xlarge">
+							</div>
+						</div>
+                        <div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname19"  class="input-xlarge">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname20"  class="input-xlarge">
+							</div>
+						</div>
+						<h4>word5 syllables</h4>
+                         <div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname21"
+								 class="input-xlarge">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname22"  class="input-xlarge">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname23"  class="input-xlarge">
+							</div>
+						</div>
+                        <div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname24"  class="input-xlarge">
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="inputFirstname">Syllable</label>
+								<div class="controls">
+								<input type="text" id="inputFirstname25"  class="input-xlarge">
+							</div>
+						</div>-->
+					</section>
+
+				</form>
+
+						
+		
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.snippet.min.js"></script>
+		<script src="../lib/jquery.easyWizard.js"></script>
+		<script src="js/scripts.js"></script>
+		<script type="text/javascript" src="read.js"></script>
+	</body>
+</html>

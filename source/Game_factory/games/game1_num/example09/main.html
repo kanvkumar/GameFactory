@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+                <script src="../static/js/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="/home/kanv/Desktop/Game/Game1/mixed_word/example15/game1.js" ></script>
+    <meta name="author" content="Darko Bunic"/>
+        <meta name="description" content="Drag and drop table content with JavaScript"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no"/><!-- "position: fixed" fix for Android 2.2+ -->
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+        <script type="text/javascript" src="../header.js"></script>
+        <script type="text/javascript" src="../redips-drag-min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+<div id="header">
+<h1 id="t"></h1>
+</div>
+<div id="section">
+        <center>
+        Drag the number into correct word.<br>
+        Double click on the selected number to replace it.<br>
+        </center>
+        <div align="right" id="main_container">
+            <!-- tables inside this DIV could have draggable content -->
+            <div align="right" id="redips-drag" >
+                <!-- left container -->
+                <div id="left">
+                    <table id="table1">
+                        <colgroup>
+                            <col width="250"/>
+                        </colgroup>
+                        <tbody>
+                            <tr><td><h3 id="w6"></h6></td></tr>
+                            <tr><td><h3 id="w4"></h6></td></tr>
+                            <tr><td><h3 id="w2"></h6></td></tr>
+                            <tr><td><h3 id="w5"></h6></td></tr>
+                            <tr><td><h3 id="w1"></h6></td></tr>
+                            <tr><td><h3 id="w3"></h6></td></tr>
+                        </tbody>
+                    </table>
+                </div><!-- left container -->
+                <!-- right container -->
+                <div id="center">
+                    <table id="table2">
+                        <colgroup>
+                            <col width="200"/>
+                        </colgroup>
+                        <tbody>
+                            <!-- clone 2 elements + last element -->
+                            <tr><td class="redips-mark"><div id="c" class="redips-drag green"></div></td></tr>
+                            <tr><td class="redips-mark"><div id="b" class="redips-drag orange"></div></td></tr>
+                            <tr><td class="redips-mark"><div id="f" class="redips-drag orange"></div></td></tr>
+                            <tr><td class="redips-mark"><div id="a" class="redips-drag orange"></div></td></tr>
+                            <tr><td class="redips-mark"><div id="d" class="redips-drag green"></div></td></tr>
+                            <tr><td class="redips-mark"><div id="e" class="redips-drag green"></div></td></tr>
+                        </tbody>
+                    </table>
+                </div><!-- right container-->
+                </div><!-- drag container -->
+                <center>
+                <div id="message">
+                  <button id="button" style="margileft:170px;align:center;width:100%;height:50px;float:bottom">Check your answers</button>
+                </div>           
+                </center>
+        </div>
+</div>
+    <div id="nav1">
+    <h3 id="ww1"></h3><br>
+    <h3 id="ww2"></h3><br>
+    <h3 id="ww3"></h3><br>
+    <h3 id="ww4"></h3><br>
+    <h3 id="ww5"></h3><br>
+    <h3 id="ww6"></h3><br>
+    
+    </div>
+</body>
+</html>
